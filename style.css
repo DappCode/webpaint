@@ -95,6 +95,7 @@ header ul li a {
     font-size: 13px;
     letter-spacing: 0.5px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 header ul li:hover a {
     color : #cb5551;

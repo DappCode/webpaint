@@ -124,11 +124,11 @@ margin-bottom: 50px;
 }
 
 .cont-services {
-    width : 25%;
+    width : 259px;
     margin : auto;
     float : left;
-    padding : 20px 0;
-    margin : 60px 0;
+    padding : 13px;
+    margin : 90px 0;
     display : inline;
 }
 
@@ -140,15 +140,14 @@ margin-bottom: 50px;
     padding: 11px;
     margin-top: 20px;
     font-size: 23px;
-    line-height: 20px;
+    line-height: 1.6;
     color : #505050;
+    font-size: 18px;
 }
 
 .cont-services p {
     font-size : 15px;
     color : #7c7c7c;
-    font-weight: 300;
-    padding : 10px;
-    letter-spacing: 2px;
+    line-height: 25px;
 }
 

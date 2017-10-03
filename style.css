@@ -9,17 +9,17 @@ body {
     font-weight: 700;
 }
 
-.header {
+.main {
     max-width : 1140px;
     margin : auto;
 }
 
-.header::before {
+.main::before {
     content : '';
-    clear: both;
+    clear: both;    
 }
 
-.header::after {
+.main::after {
     content : '';
     clear : both;
     display : table;
@@ -54,11 +54,11 @@ body {
 }
 
 .nav ul li:hover a {
-    color : #ea6661;
+    color : #f74d4c;
 }
 
 .nav ul li.active a{
-    color : #ea6661
+    color : #f74d4c;
 
 }
 
@@ -70,10 +70,9 @@ body {
     padding : 50px 0;
 }
 
-.content { 
-    color: #fff;
+/* .content { 
     padding: 60px 0;
-}
+} */
 
 h1.head {
     font-size: 62px;
@@ -105,3 +104,51 @@ margin-bottom: 50px;
     font-weight: 700;
     padding: 16px 35px;
 }
+
+.button:hover {
+    cursor: pointer;
+}
+/* 
+.services {
+    width : 300px;
+    margin : auto;
+} */
+
+.service {
+    background-color : #f8f8f8;
+}
+
+.services  {
+    width : 100%;
+    text-align : center;    
+}
+
+.cont-services {
+    width : 25%;
+    margin : auto;
+    float : left;
+    padding : 20px 0;
+    margin : 60px 0;
+    display : inline;
+}
+
+.cont-services img {
+    height : 50px;
+}
+
+ .cont-services h1{
+    padding: 11px;
+    margin-top: 20px;
+    font-size: 23px;
+    line-height: 20px;
+    color : #505050;
+}
+
+.cont-services p {
+    font-size : 15px;
+    color : #7c7c7c;
+    font-weight: 300;
+    padding : 10px;
+    letter-spacing: 2px;
+}
+

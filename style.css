@@ -179,7 +179,15 @@ margin-bottom: 50px;
     font-size: 12px;
     padding: 12px 18px;
     margin : 3px;
-    font-weight : 900;
+    font-weight : 700;
+}
+
+@media
+(-webkit-min-device-pixel-ratio:2),
+(min-resolution: 192dpi) {
+    .head-button button {
+        font-weight: 900;
+    }
 }
 
 .head-button button.active  {

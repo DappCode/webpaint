@@ -150,3 +150,41 @@ margin-bottom: 50px;
     line-height: 25px;
 }
 
+.picture {
+    margin : 100px 0;
+}
+
+.head-pict h1  {
+    font-size : 30px;
+    font-weight : 800;
+    margin-bottom: 20px;
+    color : #616161;
+}
+
+.head-pict p {
+    color : #616161;
+    font-size : 20px;
+    font-weight : 400;
+    margin-bottom : 30px;
+}
+.head-button {
+    padding : 20px 0;
+}
+
+.head-button button {
+    font-size: 12px;
+    padding: 12px 18px;
+    margin : 3px;
+}
+
+.head-button button.active  {
+    background-color : #616161;
+}
+
+.pict {
+    width : 285px;
+    margin : auto;
+    float : left;
+    padding: 5px 0;
+    display : inline;
+}

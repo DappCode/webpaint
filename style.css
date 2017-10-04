@@ -222,6 +222,7 @@ margin-bottom: 50px;
     font-size : 30px;
     font-weight : 800;
     margin-bottom: 20px;
+    color : #e0e0e0;
 }
 
 .contact-person {
@@ -237,7 +238,7 @@ margin-bottom: 50px;
 }
 
 .address img {
-    width: 10px;
+    height: 11px;
     padding-left: 20px;
 }
 
